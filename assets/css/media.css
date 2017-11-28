@@ -1,0 +1,12 @@
+/*breackpoint*
+767px*/
+ 
+@media (max-width:767px){
+    [class*="col-"]{
+        max-width: 100%;
+        flex:none;
+    }
+    #bar-menu {
+        display:inline-block;
+    }
+}
