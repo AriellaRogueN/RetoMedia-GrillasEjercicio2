@@ -6,20 +6,18 @@
     box-sizing: border-box;
 }
 
-#container-init
-
-#bar-sup{
+#bar-sup {
     background-color: #363C42;
-    color:white;
+    color: white;
 }
 
-.col-7 h3{
+.col-7 h3 {
     margin-left: 2.2em;
 }
 
-#bar-menu{
+#bar-menu {
     font-size: 2em;
-    
+    display: none;
 }
 
 #menu ul {
@@ -37,8 +35,8 @@
     margin-left: 2.2em;
 }
 
-.col-12 img{
-    width:100%;
+.col-12 img {
+    width: 100%;
 }
 
 #btn-1 {
@@ -63,12 +61,10 @@
     cursor: pointer;
 }
 
-
 .content-container {
-    margin-left:2.2em;
-    margin-top:2em;
+    margin-left: 2.2em;
+    margin-top: 2em;
 }
-
 
 #foo {
     background-color: #363C42;
