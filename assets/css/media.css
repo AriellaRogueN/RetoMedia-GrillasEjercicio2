@@ -8,5 +8,12 @@
     }
     #bar-menu {
         display: block;
+        margin-left:5em;
     }
+    #menu{
+        display:none;
+    }
+
+    
 }
+

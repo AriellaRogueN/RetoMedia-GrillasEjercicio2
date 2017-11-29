@@ -12,7 +12,7 @@
 }
 
 .col-7 h3 {
-    margin-left: 2.2em;
+    margin-left: 6em;
 }
 
 #bar-menu {
@@ -60,10 +60,16 @@
     color: white;
     cursor: pointer;
 }
+.col-9 p{
+    text-align: justify;
+}
+#picture img{
+    width: 100%;
+    
+}
 
-.content-container {
-    margin-left: 2.2em;
-    margin-top: 2em;
+#picture{
+    margin-right: 4em;
 }
 
 #foo {

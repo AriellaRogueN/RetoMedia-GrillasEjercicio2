@@ -9,6 +9,48 @@
 */
 
 
+/* Containers */
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: calc(var(--grid-gutter-width) / 2);
+    padding-left: calc(var(--grid-gutter-width) / 2);
+}
+.container-fluid {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: calc(var(--grid-gutter-width) / 2);
+    padding-left: calc(var(--grid-gutter-width) / 2);
+}
+
+@media (--breakpoint-sm-up) {
+    .container {
+        max-width: var(--container-max-width-sm);
+    }
+}
+
+@media (--breakpoint-md-up) {
+    .container {
+        max-width: var(--container-max-width-md);
+    }
+}
+
+@media (--breakpoint-lg-up) {
+    .container {
+        max-width: var(--container-max-width-lg);
+    }
+}
+
+@media (--breakpoint-xl-up) {
+    .container {
+        max-width: var(--container-max-width-xl);
+    }
+}
+
+
 /* Rows */
 
 .row {

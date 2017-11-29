@@ -13,7 +13,7 @@
 <body>
   <!--Navegación Global-->
   <header>
-    <div id="container-init" class="container">
+    <div  class="container">
       <div id="bar-sup"class="row">
         <div class="col-7">  <!--barra superior con logo en 7 columnas-->
           <h3>Start Boostrap</h3>
@@ -53,7 +53,7 @@
   Filas dividida en columnas, la primera columna, dividida a su vez
   en subcolumnas-->
   <section>
-    <div class="content-container">
+    <div class="container-fluid">
       <div  class="row">
         <div class="col-9">   <!--Primera Columna-->
           <h1>What We Do </h1>
@@ -65,19 +65,19 @@
             tempora incidunt  quibusdam minima maiores ab iure expedita dignissimos nam officiis ipsum </p>
           <button id="btn-1" type="button" class="btn btn-primary">Call to action >> </button>
             <div class="row"> <!--Nueva división Imagen, texto y boton--> 
-              <div class="col-4">
+              <div id="picture"class="col-3">
                 <img src="assets/images/descarga (1).jpg" alt="image">
                 <h3>Card Title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia placeat</p>
                 <button id="btn-2" type="button" class="btn btn-primary">Find Out more!</button>
               </div>
-              <div class="col-4">
+              <div id="picture" class="col-3">
                 <img src="assets/images/images.jpg" alt="galaxia">
                 <h3>Card Title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia placeat</p>
                 <button id="btn-2" type="button" class="btn btn-primary">Find Out more!</button>
               </div>
-              <div class="col-4">
+              <div id="picture" class="col-3">
                 <img src="assets/images/gal1.jpg" alt="galaxia">
                 <h3>Card Title</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia placeat</p>
@@ -85,19 +85,20 @@
               </div>
             </div>
           </div>
-        <div class="col-3">   <!--Segunda Columna-->
-          <h1>Contact Us</h1>
-          <h4>Start Bootstraps</h4>
-          <p> 1381 Melrose Place
-            <br> Beverly Hills, CA 90210</p>
-          <br>
-          <p>P; (123)456-7890
-          <br> 
-          <p>E; name@example.com</p>
+        <div class="offset-1"></div>
+          <div class="col-2">   <!--Segunda Columna-->
+            <h1>Contact Us</h1>
+            <h4>Start Bootstraps</h4>
+            <p> 1381 Melrose Place
+              <br> Beverly Hills, CA 90210</p>
+            <br>
+            <p>P; (123)456-7890
+            <br> 
+            <p>E; name@example.com</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 </section>
 <!--footer-->
 <footer>
